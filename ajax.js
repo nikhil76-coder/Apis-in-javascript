@@ -2,7 +2,7 @@
         function loadDoc() {
             var xhttp = new XMLHttpRequest();
 
-            let url = "https://api.wheretheiss.at/v1/satellites/25544";
+            let url = "https://api.zippopotam.us/us/33162";
 
             xhttp.onreadystatechange = function () {
 
