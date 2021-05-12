@@ -5,9 +5,11 @@ async function getData() {
 
     const data = await response.json();
     console.log(data);
-    const { country , places } = data;
+    const { country , state , places, "post code"} = data;
     document.getElementById("con").textContent = country;
+    document.getElementById("sta").textContent = state;
     document.getElementById("pla").textContent = places;
+    document.getElementById("pos").textContent = "post code";
 
 
 
